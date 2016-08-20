@@ -1,0 +1,7 @@
+jobs:
+    main:
+        image: node:{{NODE_VERSION}}
+        matrix:
+            NODE_VERSION: [4,5,6]
+        steps:
+            - echo ok
