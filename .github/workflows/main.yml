@@ -24,4 +24,4 @@ jobs:
 
     # Runs a bat file put on the root dir
     - name: Run a bat file with arguments
-      run: test.bat foo bar
+      run: ./test.bat foo bar
